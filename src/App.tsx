@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Hedder from './Hedder'
 import BigImage from './BigImage'
 import BigImageCategory from './BigImageCategory'
@@ -6,7 +5,6 @@ import NewsTopic from './NewsTopic'
 import GameSoft from './GameSoft'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className='my-0 mx-auto'>
